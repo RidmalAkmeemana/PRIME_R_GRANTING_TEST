@@ -1,0 +1,7 @@
+<suite name="Granting Flow Parallel Suite" parallel="methods" thread-count="3">
+    <test name="Granting Flow">
+        <classes>
+            <class name="TransactionTest.GrantingFlowTest"/>
+        </classes>
+    </test>
+</suite>
