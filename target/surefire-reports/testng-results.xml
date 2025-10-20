@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-20T11:42:32 IST" name="Granting Flow Parallel Suite" finished-at="2025-10-20T11:43:16 IST" duration-ms="43730">
+    <groups>
+    </groups>
+    <test started-at="2025-10-20T11:42:32 IST" name="Granting Flow" finished-at="2025-10-20T11:43:16 IST" duration-ms="43730">
+      <class name="TransactionTest.GrantingFlowTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:42:32 IST" name="setUp" finished-at="2025-10-20T11:42:34 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GrantingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:42:34 IST" name="GrantingFlow" description="Verifying Credentials" data-provider="GrantingFlow" finished-at="2025-10-20T11:42:55 IST" duration-ms="20908" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[miranga]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[miranga]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NIC/EIC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[881441333V]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Gold Loan]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Necklace]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[With Stones Pendant]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Automation Article Remark 01]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[135000.0]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Density meter]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[LENDING TO OVERSEAS ENTITIES]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[LENDING BY OVERSEAS BRANCHES]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Automation Granting Remark 01]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'miranga')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: /var/folders/r2/fljgwy_n1kz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64227/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff3d095974c0c3a7e9c1da3b55128a8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'miranga')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: /var/folders/r2/fljgwy_n1kz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64227}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64227/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ff3d095974c0c3a7e9c1da3b55128a8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Pages.HomePage.getUserLabel(HomePage.java:30)
+at ErrorValidations.HomePageErrorValidations.HomePageRedirectErrorValidation(HomePageErrorValidations.java:24)
+at TransactionTest.GrantingFlowTest.GrantingFlow(GrantingFlowTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GrantingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:42:55 IST" name="tearDown" finished-at="2025-10-20T11:42:55 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:42:55 IST" name="setUp" finished-at="2025-10-20T11:42:56 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GrantingFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:42:56 IST" name="GrantingFlow" description="Verifying Credentials" data-provider="GrantingFlow" finished-at="2025-10-20T11:43:15 IST" duration-ms="19204" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harsha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harshaf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NIC/EIC]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[881441333V]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Gold Loan]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Necklace]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[With Stones Pendant]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12.2]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Automation Article Remark 02]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[135000.0]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Density meter]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[LENDING TO OVERSEAS ENTITIES]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[LENDING BY OVERSEAS BRANCHES]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Automation Granting Remark 02]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'harshaf')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: /var/folders/r2/fljgwy_n1kz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d9ee8e929e37d7214df23003253e6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'harshaf')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.78 (2b53b0e231fc..., userDataDir: /var/folders/r2/fljgwy_n1kz...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64259/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0d9ee8e929e37d7214df23003253e6e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Pages.HomePage.getUserLabel(HomePage.java:30)
+at ErrorValidations.HomePageErrorValidations.HomePageRedirectErrorValidation(HomePageErrorValidations.java:24)
+at TransactionTest.GrantingFlowTest.GrantingFlow(GrantingFlowTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GrantingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TransactionTest.GrantingFlowTest@53fd0d10]" started-at="2025-10-20T11:43:15 IST" name="tearDown" finished-at="2025-10-20T11:43:16 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TransactionTest.GrantingFlowTest -->
+    </test> <!-- Granting Flow -->
+  </suite> <!-- Granting Flow Parallel Suite -->
+</testng-results>

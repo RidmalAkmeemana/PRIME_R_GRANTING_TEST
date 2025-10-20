@@ -1,0 +1,20 @@
+[[32mINFO[m] Oct 20, 2025 11:51:12 AM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 20, 2025 11:51:12 AM Infra.BasePage - VERIFYING CREDENTIALS
+[[32mINFO[m] Oct 20, 2025 11:51:12 AM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 20, 2025 11:51:13 AM Infra.BasePage - REDIRECT TO: https://10.0.0.226:5051/DFCC_MIGR/auth/login
+[[32mINFO[m] Oct 20, 2025 11:51:13 AM Infra.BasePage - NAME: USER_0001
+[[32mINFO[m] Oct 20, 2025 11:51:15 AM Infra.BasePage - ENTER USERNAME: USER_0001
+[[32mINFO[m] Oct 20, 2025 11:51:17 AM Infra.BasePage - ENTER PASSWORD: 123@
+[[32mINFO[m] Oct 20, 2025 11:51:19 AM Infra.BasePage - CLICK ON SIGN IN BUTTON 
+
+[[32mINFO[m] Oct 20, 2025 11:51:19 AM Infra.BasePage - CLICK VISIT SITE 
+
+[[32mINFO[m] Oct 20, 2025 11:51:40 AM Infra.BasePage - -------------------------------------------------------
+[[32mINFO[m] Oct 20, 2025 11:51:40 AM Infra.BasePage - VERIFYING CREDENTIALS
+[[32mINFO[m] Oct 20, 2025 11:51:40 AM Infra.BasePage - -------------------------------------------------------
+
+[[32mINFO[m] Oct 20, 2025 11:51:41 AM Infra.BasePage - REDIRECT TO: https://10.0.0.226:5051/DFCC_MIGR/auth/login
+[[32mINFO[m] Oct 20, 2025 11:51:41 AM Infra.BasePage - NAME: USER_0002
+[[32mINFO[m] Oct 20, 2025 11:51:43 AM Infra.BasePage - ENTER USERNAME: USER_0002
+[[32mINFO[m] Oct 20, 2025 11:51:45 AM Infra.BasePage - ENTER PASSWORD: 123@

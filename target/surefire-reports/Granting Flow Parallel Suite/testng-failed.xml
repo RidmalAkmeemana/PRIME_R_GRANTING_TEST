@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Granting Flow Parallel Suite]" verbose="0">
+  <test thread-count="3" parallel="methods" name="Granting Flow(failed)" verbose="0">
+    <classes>
+      <class name="TransactionTest.GrantingFlowTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="GrantingFlow" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- TransactionTest.GrantingFlowTest -->
+    </classes>
+  </test> <!-- Granting Flow(failed) -->
+</suite> <!-- Failed suite [Granting Flow Parallel Suite] -->

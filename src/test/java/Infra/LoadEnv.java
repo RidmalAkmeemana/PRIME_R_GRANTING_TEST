@@ -15,7 +15,7 @@ public class LoadEnv {
     }
 
     private static XSSFSheet getSheet(String fileName, int sheetIndex) throws IOException {
-        FileInputStream fis = new FileInputStream("../SITS-PrimeR/src/test/resources/" + fileName);
+        FileInputStream fis = new FileInputStream("../GrantingAutomation/src/test/resources/" + fileName);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         return workbook.getSheetAt(sheetIndex);
     }
@@ -40,16 +40,5 @@ public class LoadEnv {
             e.printStackTrace();
         }
         return url;
-    }
-
-    public static String getTitle() {
-        String title = "";
-        try {
-            XSSFSheet sheet = getSheet("TestData.xlsm", 0);
-            title = getCellValue(sheet, 1, 2);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return title;
     }
 }
